@@ -24,6 +24,8 @@ import spacy
 import random
 import requests
 
+logger = logging.getLogger("pymirokai")
+
 # Entry point to run the robot interaction asynchronously.
 async def run(ip: str, api_key: str) -> None:
     """Run the robot, demonstrating various features."""
